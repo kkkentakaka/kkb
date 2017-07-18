@@ -1,0 +1,90 @@
+@page {
+  size: A4 portrait;
+  margin: 1cm 2cm 1cm 2cm;
+}
+html, body{
+ width: 257mm;
+ height: 189mm;
+}
+
+@media print {
+ .print_header{
+  page-break-before: always;
+ }
+ #ad{ display:none;}
+ #leftbar{ display:none;}
+ #contentarea{ width:100%;}
+ html, body{
+   /*width: 257mm;
+   height: 189mm;*/
+   width: 189mm;
+   height: 257mm;
+ }
+
+}
+.header_title{
+  font-size: 18px;
+  line-height: 10px;
+  text-align: center;
+  padding-bottom: 7px;
+}
+.detail{
+  font-size: 12px;
+  line-height: 10px;
+  text-align: center;
+}
+.created_at{
+  font-size: 11px;
+  line-height: 13px;
+  text-align: right;
+}
+.date_record{
+  line-height: 10px;
+  font-size: 13px;
+  position: absolute;
+  margin-top: -10px;
+}
+.labeltext{
+  display: inline-block;
+  margin-top: -30px;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+}
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th{
+  padding: 0px;
+  font-size: 11px;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+  line-height: 15px;
+}
+.portpassrecord{
+  border-top: 1px solid #1b1919 !important;
+
+}
+.tdtotal{
+  padding-top: 4px !important;
+}
+.width100{
+  width: 100px;
+ }
+ .width300{
+  width: 300px;
+ }
+ .width50{
+  width: 50px;
+ }
+ .width120{
+  width: 120px;
+  text-align: right;
+ }

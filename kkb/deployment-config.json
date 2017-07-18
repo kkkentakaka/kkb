@@ -1,0 +1,9 @@
+{
+    "type": "ftp",
+    "host": "port.e-khmer.com",
+    "username": "portuseds",
+    "password": "d7!CRGGU",
+    "port": 21,
+    "remotePath": "./port.e-khmer.com",
+    "uploadOnSave": true
+}

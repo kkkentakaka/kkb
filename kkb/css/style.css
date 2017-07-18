@@ -1,0 +1,85 @@
+.breadcrumb
+{
+  margin-top: 33px;
+}
+.label-addon{
+  width: 150px;
+  text-align: right;
+}
+.footer{
+  padding-top: 20px;
+}
+.fa-lg{
+  vertical-align: 0%;
+}
+#availble_zone{
+padding: 0px 8px 0px;
+}
+#unavailble_zone{
+  padding: 15px 15px 10px;
+}
+
+#table_zone tr td{
+  width: 30px;
+  padding: 0px;
+  text-align: center;
+  line-height: 30px;
+}
+#table_zone td:hover {
+   background-color: #ccc;
+}
+/*.showtotal{
+  height: 30px;
+  font-size: 13px !important;
+  text-align: center;
+
+}*/
+.showtotal tr > th, .showtotal tr > td {
+  text-align: center;
+  font-size: 12px;
+}
+.showtotal > tbody > tr > td,
+.showtotal > tbody > tr > th,
+.showtotal > tfoot > tr > td,
+.showtotal > tfoot > tr > th,
+.showtotal > thead > tr > td,
+.showtotal > thead > tr > th{
+  padding: 2px;
+}
+.printTable{
+  width: 100%;
+}
+.printTable > thead > tr > th {
+  vertical-align: top;
+  vertical-align: left;
+}
+.printTable > tbody > tr >td {
+  vertical-align: top;
+  vertical-align: left;
+}
+.searchinput{
+  width:208px !important;
+}
+table {
+    table-layout:fixed;
+}
+
+.div-table-content {
+  height:200px;
+  overflow-y:scroll;
+}
+#load{
+  display: none;
+  margin-left: 45%;
+  margin-top: 70px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background-image: url("../img/ajax-loader3.gif");
+  background-size: 50px 40px;
+  background-repeat: no-repeat;
+}
+.kw970 >tbody>tr> th{
+  background-color: green;
+  color: white;
+}
